@@ -11,8 +11,8 @@ label {
 }
 
 .main{
-    position: relative;
-    height: 856px;
+    position: absolute;
+    height: 100%;
     width: 390px;
     border-radius: 14px;
     overflow: scroll;
