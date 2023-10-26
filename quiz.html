@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style_quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="extra">
+        <div class="main">
+            <div class="w3-container">
+                <div class="w3-light-grey">
+                    <div id="progressBar" class="w3-green" style="height:24px; width:0"></div>
+                </div>
+                <br>
+            </div>
+
+            <div class="question-container">
+                <div class="question active" id="question1">
+                    <p>What kind of food are you looking for?</p>
+                    <button class="choice">A meal to fill up your stomach</button>
+                    <button class="choice">A sweet dessert</button>
+                    <button class="choice">A fun snack</button>
+                    <button class="choice">I haven't decided</button>
+                </div>
+                <div class="question" id="question2">
+                    <p>What is the price range you are looking for?</p>
+                    <button class="choice">Less than 100Baht</button>
+                    <button class="choice">100-200Baht</button>
+                    <button class="choice">200-300Baht</button>
+                    <button class="choice">More than 300Baht</button>
+                    <button class="choice">I haven't decided</button>
+                </div>
+                <div class="question" id="question3">
+                    <p>What style of food are you looking for?</p>
+                    <button class="choice">Thai</button>
+                    <button class="choice">Korean</button>
+                    <button class="choice">Japanese</button>
+                    <button class="choice">American</button>
+                    <button class="choice">Italian</button>
+                    <button class="choice">Mexican</button>
+                    <button class="choice">Chinese</button>
+                    <button class="choice">Others</button>
+                    <button class="choice">I haven't decided</button>
+                </div>
+                <div class="question" id="question4">
+                    <p>Do you have any specific dietary restrictions or allergies?</p>
+                    <button class="choice">I'm a vegan</button>
+                    <button class="choice">I'm a vegetarian</button>
+                    <button class="choice">I'm a muslim</button>
+                    <button class="choice">I don't eat beef</button>
+                    <button class="choice">I have a peanut allergy</button>
+                    <button class="choice">I have a shellfish allergy</button>
+                    <button class="choice">I have no food restrictions or allergies</button>
+                </div>
+                <div class="question" id="question5">
+                    <p>Are you looking for fast food, a family-style meal, or a more gourmet dining experience?</p>
+                    <button class="choice">Fast Food</button>
+                    <button class="choice">Family-style</button>
+                    <button class="choice">Gourmet</button>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="nav">
+            <ul>
+                <li class="list">
+                <a href="index.html">
+                    <span class="icon">
+                    <div class="inactive">
+                        <image src="/resource/home_icon.png" style="width:24px"></image>
+                    </div>
+                    </span>
+                </a>
+                </li>
+                <li class="list">
+                <a href="explore.html">
+                    <span class="icon">
+                    <div class="active">
+                        <image src="/resource/explore_icon.png" style="width:24px;"></image>
+                    </div>
+                    </span>
+                </a>
+                </li>
+                <li class="list">
+                <a href="quiz.html">
+                    <span class="icon">
+                    <div class="inactive">
+                        <image src="/resource/random_icon.png" style="width:36px"></image>
+                    </div>
+                    </span>
+                </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script_quiz.js"></script>
+</body>
+</html>
