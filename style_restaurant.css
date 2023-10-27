@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: white;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.extra{
+    position: relative;
+    height: 856px;
+    width: 100%;
+    max-width: 390px;
+    border-radius: 14px;
+    background: white;
+    color: black;
+}
+
+.main{
+    position: relative;
+    height: 856px;
+    width:100%;
+    max-width: 390px;
+    border-radius: 14px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+img.round {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 304px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px -10px 100px 100px black inset;
+}
+.reload {
+    display: block;
+    margin: 10px; /* Center buttons horizontally */
+    width: 100px; /* Adjust the button width as needed */
+    border-radius: 100px;
+    height: 50px;
+    background-color: #FCA136;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 100px 1px gray;
+}
+.reload:hover {
+    background-color: #FFBC6C;
+    transition-duration: 200ms;
+}
+
+.name {
+    font-family: 'Inter';
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.detial {
+    font-family: 'Nunito';
+    font-size: 16px;
+    max-width: 90%;
+    margin-left: 20px;
+}
+
+.flex-end {
+    padding: -10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 304px;
+}
+
+img.round {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px -10px 100px 100px black inset;
+}
+
+
+button.reload {
+    position: absolute;
+    bottom: -3%; /* Adjust the position to be in the middle */
+    right: 10px; /* Adjust the distance from the right as needed */
+    transform: translateY(50%); /* Move the button up by 50% of its own height */
+    width: 100px; /* Adjust the button width as needed */
+    height: 50px; /* Adjust the button height as needed */
+    background-color: #FCA136;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.25);
+    z-index: 2;
+}
+
+.image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 50%);
+    z-index: 1;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.text-container {
+    position: relative;
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+/* ... (your existing CSS) */
+
+.menu-container {
+    position: relative;
+    width: 100%;
+    margin: 10px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+}
+
+.menu-item {
+    background: white;
+    color: black;
+    width: calc(50%); /* Two items per row with 10px margin between them */
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-image {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.menu-image img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 14px;
+}
+
+.add-button {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    background-color: #F8C631;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Nunito';
+}
+
+.menu-name {
+    font-family: 'Alata';
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.menu-price {
+    font-family: 'Lato';
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.menu-head {
+    font-family: 'Inter'; 
+    font-size: 35; 
+    font-weight: bold; 
+    margin-left: 30px;
+}

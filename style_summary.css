@@ -1,0 +1,353 @@
+.aquaElement {
+    background-color: aqua;
+}
+
+.main{
+    position: relative;
+    height: 856px;
+    width: 100%;
+    max-width: 390px;
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: #F7F7F7;
+}
+
+/* .card {
+    width: 450px;
+    background-color: white;
+    color: var(--desaturated_blue)
+} */
+
+:root {
+    /* --pale-blue: hsl(225,100%,94%);
+    --bright-blue: hsl(245,75%,52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224,23%,55%);
+    --dark-blue: hsl(223, 47%, 23%); */
+    --orange: #fca136;
+    
+}
+
+body {
+    background: black;
+    color: black;
+    height: 100vh;
+    display: grid;
+    place-items: center;  
+    background-repeat: no_repeat;
+    background-size: cover;
+}
+
+res {
+    color: black;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Red+Hat+Display:wght@300&display=swap'); */
+
+/* .title {
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: "Alata", sans-serif;
+} */
+
+.name {
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: "Alata", sans-serif;
+    position: absolute;
+    bottom: 0;
+    height: 45%;
+    left: 25%;
+}
+
+/* .container {
+    padding: 30px;
+    overflow: hidden;
+}
+
+.container > * {
+    margin: 13px 0;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Red+Hat+Display:wght@300&family=Roboto&display=swap'); */
+
+.confirm {
+    background-color: var(--orange);
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0%;
+    height: 30%;
+    width: 80%;
+    top: 50%;
+    left: 10%;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Inter&family=Red+Hat+Display:wght@300&family=Roboto&display=swap'); */
+
+/* selector {
+    font-family: "Alata", "Roboto", "Inter", sans-serif;
+} */
+
+.locationandfee {
+    background-color: white;
+    position: absolute;
+    top: 16%;
+    width: 100%;
+    height: 17%;
+
+}
+
+.summary {
+    background-color: white;
+    position: absolute;
+    top: 34%;
+    width: 100%;
+    height: 17%;
+
+}
+
+.bottom {
+    background-color: white;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 20%;
+    border-radius: 18px;
+    box-shadow: 0px 0px 15px 0px #A9A9A9;
+}
+
+.total {
+    font-family: "Alata", sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    position: absolute;
+    bottom: 0%;
+    height: 80%;
+    left: 10%
+}
+
+.money {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 0%;
+    height: 80%;
+    left: 78%;
+}
+
+.top {
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 15%;
+}
+
+.back {
+    position: absolute;
+    bottom: 0%;
+    height: 60%;
+    left: 5%;
+    background-color: white;
+    border: 0;
+}
+
+.locationicon {
+    position: relative;
+    left: 5%;
+    /* border-radius: 12px; */
+    /* border: 3px solid #FFF; */
+    /* background: #FFF; */
+    /* box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25); */
+    border-radius: 50px;
+    border: 0;
+    background: #FC9536; 
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    background-color: white;
+    border-radius: 12px;
+    border: 3px solid #FFF;
+    /* background: #FFF; */
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+    height: 50px;
+    width: 90%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    left: 5%;
+    position: absolute;
+    bottom: 0;
+    top: 15%;
+
+}
+
+.yourlocation {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 17%;
+}
+
+.locationchange {
+    position: relative;
+    left: 82%;
+    /* border-radius: 12px; */
+    /* border: 3px solid #FFF; */
+    /* background: #FFF; */
+    /* box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 50px; */
+    border: 0;
+    /* background: #FC9536;  */
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feebox {
+    background-color: white;
+    border-radius: 12px;
+    border: 3px solid #FFF;
+    /* background: #FFF; */
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+    height: 40px;
+    width: 90%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    left: 5%;
+    position: absolute;
+    bottom: 0;
+    top: 60%;
+}
+
+.deliveryfee {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    left: 5%;
+}
+
+.fee {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    right: 5%;
+}
+
+.ordersummary {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    top: 10px;
+    left: 5%;
+}
+
+.orderbox {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 127px;
+    position: absolute;
+    top: 0;
+    top: 60px;
+    background-color: white;
+}
+
+.amount {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: white;
+
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 5px 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 3px solid #FC9536;
+
+    position: absolute;
+    left: 0;
+    left: 5%;
+}
+
+.foodname {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: absolute;
+    left: 0;
+    left: 20%;
+}
+
+.foodfee {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    right: 0;
+    right: 10%;
+
+    
+}
+
+.food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
