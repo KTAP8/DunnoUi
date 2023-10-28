@@ -93,7 +93,19 @@ res {
     left: 10%;
     border: 0;
     border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.confirm:hover {
+    background-color: #FFBC6C;
+    transition-duration: 200ms;
+}
+
 
 /* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Inter&family=Red+Hat+Display:wght@300&family=Roboto&display=swap'); */
 

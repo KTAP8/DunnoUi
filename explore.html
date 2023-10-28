@@ -15,7 +15,7 @@
 <body>
   <div class="main">
     <div class="video">
-      <video controls loop id='video-player' src="/resource/videos/video1.MP4" class="video_player"></video>
+      <video controls loop id='video-player' src="resource/videos/video1.MP4" class="video_player"></video>
     </div>
     <!-- Footer -->
     <div class="video_footer">
@@ -31,7 +31,7 @@
               <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21C12 21 18 14.7 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 14.7 12 21 12 21Z" stroke="#302D2D"/>
               <path fill-rule="evenodd" clip-rule="evenodd" d="M12 10C12.5523 10 13 9.55228 13 9C13 8.44772 12.5523 8 12 8C11.4477 8 11 8.44772 11 9C11 9.55228 11.4477 10 12 10Z" stroke="#302D2D"/>
             </svg>
-            <p id="video-location">Tony's Pizza</p>
+            <p id="video-location">Place A</p>
           </div>
         </div>
         <div class="heart" id="add-to-favorite">
@@ -42,7 +42,7 @@
       </div>
       <!-- Third line-->
       <div id= 'video-description' class="description">
-        Beloved neighborhood pizaa...
+        Description for Video 1
       </div>
     </div>
     <div class="navigation">
@@ -52,7 +52,7 @@
             <a href="index.html">
               <span class="icon">
                 <div class="inactive">
-                  <image src="/resource/home_icon.png" style="width:24px"></image>
+                  <image src="resource/home_icon.png" style="width:24px"></image>
                 </div>
               </span>
             </a>
@@ -61,7 +61,7 @@
             <a href="explore.html">
               <span class="icon">
                 <div class="active">
-                  <image src="/resource/explore_icon.png" style="width:24px;"></image>
+                  <image src="resource/explore_icon.png" style="width:24px;"></image>
                 </div>
               </span>
             </a>
@@ -70,7 +70,7 @@
             <a href="quiz.html">
               <span class="icon">
                 <div class="inactive">
-                  <image src="/resource/random_icon.png" style="width:36px"></image>
+                  <image src="resource/random_icon.png" style="width:36px"></image>
                 </div>
               </span>
             </a>
@@ -106,10 +106,10 @@
   const videoLocation = document.getElementById('video-location');
   
   const videoSources = [
-    { src: '/resource/videos/video1.MP4', description: 'Beloved neighborhood pizaa...', title: 'Channel A', location: "Tony's Pizza"},
-    { src: '/resource/videos/video2.MP4', description: 'Description for Video 2', title: 'Channel B', location: "Place B" },
-    { src: '/resource/videos/video3.MP4', description: 'Description for Video 3', title: 'Channel C', location: "Place C" },
-    { src: '/resource/videos/video4.MP4', description: 'Description for Video 4', title: 'Channel D', location: "Place D" },
+    { src: 'resource/videos/video1.MP4', description: 'Description for Video 1', title: 'Channel A', location: "Place A"},
+    { src: 'resource/videos/video2.MP4', description: 'Description for Video 2', title: 'Channel B', location: "Place B" },
+    { src: 'resource/videos/video3.MP4', description: 'Description for Video 3', title: 'Channel C', location: "Place C" },
+    { src: 'resource/videos/video4.MP4', description: 'Description for Video 4', title: 'Channel D', location: "Place D" },
   ];
 
   let currentVideoIndex = 0;
